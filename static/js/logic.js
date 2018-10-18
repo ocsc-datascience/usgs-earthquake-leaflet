@@ -100,7 +100,7 @@ function createFeatures(data) {
       radius = 2;
     } else {
       color = getColor(mag);
-      radius = 2 * Math.max(mag, 1);
+      radius = 3 * Math.max(mag, 1);
     }
     return L.circleMarker(latlng, {
       color: color,
